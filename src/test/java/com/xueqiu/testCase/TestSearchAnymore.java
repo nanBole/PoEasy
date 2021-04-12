@@ -33,11 +33,16 @@ public class TestSearchAnymore {
         App.start();
     }
 
+
     @Before
     public void before() {
         searchPage = App.toSearch();
     }
 
+    /**
+     * 参数提供
+     * @return
+     */
     @Parameterized.Parameters
     public static List<String> data() {
         List<String> stocks = new ArrayList<>();
@@ -57,6 +62,7 @@ public class TestSearchAnymore {
 
     @After
     public void tearDown() {
+        //取消
         searchPage.cancel();
 
     }

@@ -11,7 +11,10 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class App extends BasePage {
-
+    /**
+     * 基础配置
+     * @throws MalformedURLException
+     */
     @Before
     public static void start() throws MalformedURLException {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
