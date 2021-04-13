@@ -8,6 +8,9 @@
     <artifactId>PoEasy</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <aspectj.version>1.8.10</aspectj.version>
+    </properties>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -48,11 +51,11 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.25</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>slf4j-api</artifactId>-->
+<!--            <version>1.7.25</version>-->
+<!--        </dependency>-->
 
         <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
         <dependency>
@@ -74,6 +77,15 @@
             <artifactId>spring-context</artifactId>
             <version>5.1.8.RELEASE</version>
         </dependency>
+
+        <!-- Allure2-->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-junit4</artifactId>
+            <version>2.13.9</version>
+            <scope>test</scope>
+        </dependency>
+
 
     </dependencies>
 
@@ -118,6 +130,7 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -126,7 +139,37 @@
                     <target>8</target>
                 </configuration>
             </plugin>
+
+
+        <!--新增2021-04-13 -->
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.20</version>
+                <configuration>
+                    <testFailureIgnore>false</testFailureIgnore>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                    <properties>
+                        <property>
+                            <name>listener</name>
+                            <value>io.qameta.allure.junit4.AllureJunit4</value>
+                        </property>
+                    </properties>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <!--新增 -->
         </plugins>
+
     </build>
 
 </project>

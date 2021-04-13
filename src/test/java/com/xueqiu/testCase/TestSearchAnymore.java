@@ -1,6 +1,5 @@
 package com.xueqiu.testCase;
 
-import com.sun.deploy.util.SearchPath;
 import com.xueqiu.App.App;
 import com.xueqiu.App.SearchPage;
 import org.junit.After;
@@ -14,8 +13,6 @@ import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.assertThat;
 
 /**
  * @author 我的袜子有个洞

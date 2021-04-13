@@ -39,7 +39,7 @@ public class App extends BasePage{
         System.out.println("点击企业登录按钮:");
         driver.findElement(By.linkText("企业登录")).click();
         System.out.println("添加Cookie直接登录:");
-        driver.manage().addCookie(new Cookie("wwrtx.sid", "RLfO6jSPTAr5nOy3-2A11uQlnOwBYplbWkMSmtWTz0gIs7obpQL8ttfrAnzShSsw"));
+        driver.manage().addCookie(new Cookie("wwrtx.sid", "RLfO6jSPTAr5nOy3-2A11qRfF8N-apeoRlFzjEmYdMT2-ok1A38GYrnZ5ITmu3cx"));
         driver.navigate().refresh();
         if ("https://work.weixin.qq.com/wework_admin/frame".equals(driver.getCurrentUrl())) {
             System.out.println("登录成功");
