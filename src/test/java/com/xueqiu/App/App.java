@@ -24,7 +24,7 @@ public class App extends BasePage {
         desiredCapabilities.setCapability("appActivity", ".view.WelcomeActivityAlias");
         desiredCapabilities.setCapability("appPackage", "com.xueqiu.android");
         desiredCapabilities.setCapability("ensureWebviewsHavePages", true);
-        //处理升级框，弹出框
+        //防止重安装app
         desiredCapabilities.setCapability("noReset",true);
         //配置chomerdriver路径,配置多个版本的chromerdriver,当存在webview时,可以自己寻找匹配的驱动
         desiredCapabilities.setCapability("chromedriverExecutableDir","D:/selenium");
