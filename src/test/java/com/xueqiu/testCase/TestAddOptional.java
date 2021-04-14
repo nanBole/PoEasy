@@ -33,7 +33,7 @@ public class TestAddOptional {
     @Step("Search Step")
     @DisplayName("Allure2Demo DisplayName")
     @Description("Allure2测试用例C")
-    @Link("https://dev.mobizone.cn:8080/Team01ProjectCollection/xqTest/_queries")
+    @Link("https://blog.csdn.net/lmarster?type=sub&subType=watch")
     @Link(name = "bugAddress",type = "mylink")
     @Issue("002")
     @Severity(SeverityLevel.MINOR)
