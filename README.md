@@ -4,4 +4,4 @@
 # Allure测试报告生成
 mvn clean test
 
-allure server allure-results
+allure serve allure-results
