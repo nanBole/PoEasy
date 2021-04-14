@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="911d4e48-7e30-4e0a-9ad0-4f3f2068e8a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestAddOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestAddOptional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,18 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/BroadCastPage.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,14 +51,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestAddOptional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+            <state relative-caret-position="213">
+              <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="80" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -134,11 +131,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/org/WeWork/page/App.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/org/WeWork/page/ContactPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/allure.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/App/OpenAccoutPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestOpenAccout.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAndPrice.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestAddOptional.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/allure.properties" />
       </list>
     </option>
   </component>
@@ -225,47 +222,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PoEasy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PoEasy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="WeWork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PoEasy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PoEasy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="WeWork" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PoEasy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PoEasy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="WeWork" type="462c0819:PsiDirectoryNode" />
-              <item name="testCase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PoEasy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PoEasy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xueqiu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -277,6 +233,18 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xueqiu" type="462c0819:PsiDirectoryNode" />
               <item name="testCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoEasy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoEasy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoEasy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoEasy" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -415,7 +383,7 @@
       <workItem from="1618368632879" duration="188000" />
       <workItem from="1618368959527" duration="311000" />
       <workItem from="1618371807022" duration="5659000" />
-      <workItem from="1618382220269" duration="116000" />
+      <workItem from="1618382220269" duration="730000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1618219949057</created>
@@ -459,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618381085344</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Link">
+      <created>1618382355967</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618382355967</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -495,7 +470,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16454000" />
+    <option name="totallyTimeSpent" value="17068000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -527,8 +502,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49636218" weight="0.6021314" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.4987874" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5699272" visible="true" weight="0.23623446" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.43007275" side_tool="true" weight="0.23623446" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.56911886" visible="true" weight="0.23623446" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.43088117" side_tool="true" weight="0.23623446" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -624,7 +599,8 @@
     <MESSAGE value="allure2" />
     <MESSAGE value="allure2 报告生成" />
     <MESSAGE value="allure2 基本配置更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="allure2 基本配置更新" />
+    <MESSAGE value="Link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Link" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
@@ -676,13 +652,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1185#1186#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -791,11 +760,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestAddOptional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+        <state relative-caret-position="213">
+          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="80" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
         </state>
       </provider>
     </entry>
