@@ -4,6 +4,7 @@ import com.org.WeWork.page.BasePage;
 import com.xueqiu.App.App;
 import com.xueqiu.App.OpenAccoutPage;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.net.MalformedURLException;
@@ -26,9 +27,11 @@ public class TestOpenAccout extends BasePage {
         openAccoutPage = App.toOpenAccout();
     }
 
+    @Ignore("Not Ready to Run")
     @Test
     public void openAccount() throws InterruptedException {
         System.out.println("成功进入开户页面");
+
         webView();
     }
 }

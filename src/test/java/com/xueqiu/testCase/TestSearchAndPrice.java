@@ -22,7 +22,6 @@ import static org.junit.Assert.assertThat;
  * @path: JunitTest com.yxbj.testCase
  * @date: 2021/4/9 14:08
  **/
-@RunWith(Parameterized.class)
 public class TestSearchAndPrice {
 
     public static SearchPage searchPage;
@@ -36,7 +35,10 @@ public class TestSearchAndPrice {
     @Test
     public void search() {
         assertThat(searchPage.search("alibaba").getCurrentPrice(),
-                closeTo(230.0, 10.0));
+                closeTo(241.0, 10.0));
+//        searchPage.search("alibaba").getCurrentPrice();
     }
+
+
 
 }

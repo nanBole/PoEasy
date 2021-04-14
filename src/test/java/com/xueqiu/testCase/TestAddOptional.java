@@ -2,6 +2,8 @@ package com.xueqiu.testCase;
 
 import com.xueqiu.App.App;
 import com.xueqiu.App.SearchPage;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -28,6 +30,13 @@ public class TestAddOptional {
     }
 
     @Test
+    @Step("Search Step")
+    @DisplayName("Allure2Demo DisplayName")
+    @Description("Allure2测试用例C")
+    @Link("https://dev.mobizone.cn:8080/Team01ProjectCollection/xqTest/_queries")
+    @Link(name = "bugAddress",type = "mylink")
+    @Issue("002")
+    @Severity(SeverityLevel.MINOR)
     public void optional() {
        searchPage.search("alibaba").clickAndAdd();
     }

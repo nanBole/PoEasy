@@ -5,9 +5,6 @@ import org.openqa.selenium.Cookie;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -39,7 +36,7 @@ public class App extends BasePage{
         System.out.println("点击企业登录按钮:");
         driver.findElement(By.linkText("企业登录")).click();
         System.out.println("添加Cookie直接登录:");
-        driver.manage().addCookie(new Cookie("wwrtx.sid", "RLfO6jSPTAr5nOy3-2A11qRfF8N-apeoRlFzjEmYdMT2-ok1A38GYrnZ5ITmu3cx"));
+        driver.manage().addCookie(new Cookie("wwrtx.sid", "RLfO6jSPTAr5nOy3-2A11mvqWLOaUOaKt7BH2xtxmPHY9iFcEjj22VYKhEZ3unbl"));
         driver.navigate().refresh();
         if ("https://work.weixin.qq.com/wework_admin/frame".equals(driver.getCurrentUrl())) {
             System.out.println("登录成功");

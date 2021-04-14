@@ -83,10 +83,10 @@ public class ContactPage extends BasePage {   //通讯录
      */
     public ContactPage importMemberFile(String path){
 
-        findElement(By.partialLinkText("批量导入/导出"),5).click();
+        findElement(By.partialLinkText("批量导入/导出"),10).click();
         findElement(By.linkText("文件导入")).click();
         findElement(By.id("js_upload_file_input")).sendKeys(path);
-        findElement(By.id("submit_csv"),5).click();
+        findElement(By.id("submit_csv"),10).click();
         findElement(By.id("reloadContact")).click();
         return this;
     }

@@ -8,4 +8,5 @@ package com.xueqiu.App;
  **/
 public class OpenAccoutPage extends BasePage{
 
+
 }
