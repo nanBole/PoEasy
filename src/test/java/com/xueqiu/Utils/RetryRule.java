@@ -5,9 +5,6 @@ import org.junit.rules.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
 
-import javax.transaction.TransactionRequiredException;
-
-
 /**
  * @author 我的袜子有个洞
  * @description: implement一个TestRule interface，实现一个叫apply()的方法。这个方法需要返回一个Statement对象
@@ -51,38 +48,24 @@ public class RetryRule implements TestRule {
             @Override
             public void evaluate() throws Throwable {
 
+                String className = description.getClassName();
+                String methodName = description.getMethodName();
+
                 Throwable caughtThrowable = null;
                 // implement retry logic here
                 for (int i = 0; i < retryCount; i++) {
                     try {
+                        //想要在测试方法运行之前做一些事情，就在base.evaluate()之前做
                         base.evaluate();
-                        logger.info("-----RetryRunner-----: Test case success, " + (i + 1));
+                        logger.info( className + "." + methodName + " case success, " + (i + 1));
                         return;
                     }catch (Throwable t){
                         caughtThrowable = t;
-                        logger.info("-----RetryRunner-----: Test case failed, " + (i + 1) + ", "
-                                + t.getMessage());
+                        logger.info( className + "." +  methodName + " case failed, " + (i + 1) + ", " + t.getMessage());
                     }
                 }
                 throw caughtThrowable;
             }
         };
     }
-
-
-//    @Override
-//    public Statement apply(final Statement base, final Description description){
-//        return new Statement() {
-//            @Override
-//            public void evaluate() throws Throwable {
-//                //想要在测试方法运行之前做一些事情，就在base.evaluate()之前做
-//                String ClassName = description.getClassName();
-//                String methodName = description.getMethodName();
-//                //运行测试方法
-//                base.evaluate();
-//                //想要在测试方法运行之前做一些事情，就在base.evaluate()之后做
-//                System.out.println("Class name: " + ClassName + ", method name: " +methodName);
-//            }
-//        };
-//    }
 }

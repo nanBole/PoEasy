@@ -2,9 +2,11 @@ package com.xueqiu.testCase;
 
 import com.xueqiu.App.App;
 import com.xueqiu.App.SearchPage;
+import com.xueqiu.Utils.RetryRule;
 import io.qameta.allure.*;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.BeforeClass;
+import org.junit.Rule;
 import org.junit.Test;
 
 import java.net.MalformedURLException;
@@ -20,6 +22,8 @@ import static org.junit.Assert.assertThat;
  **/
 public class TestAddOptional {
 
+    @Rule
+    public RetryRule retryRule = new RetryRule(5);
 
     public static SearchPage searchPage;
 

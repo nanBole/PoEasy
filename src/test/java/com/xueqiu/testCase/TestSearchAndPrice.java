@@ -2,10 +2,8 @@ package com.xueqiu.testCase;
 
 import com.xueqiu.App.App;
 import com.xueqiu.App.SearchPage;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import com.xueqiu.Utils.RetryRule;
+import org.junit.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -23,6 +21,9 @@ import static org.junit.Assert.assertThat;
  * @date: 2021/4/9 14:08
  **/
 public class TestSearchAndPrice {
+
+    @Rule
+    public RetryRule retryRule = new RetryRule(5);
 
     public static SearchPage searchPage;
 

@@ -3,8 +3,10 @@ package com.xueqiu.testCase;
 import com.org.WeWork.page.BasePage;
 import com.xueqiu.App.App;
 import com.xueqiu.App.OpenAccoutPage;
+import com.xueqiu.Utils.RetryRule;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
+import org.junit.Rule;
 import org.junit.Test;
 
 import java.net.MalformedURLException;
@@ -18,6 +20,9 @@ import static com.xueqiu.App.BasePage.webView;
  * @date: 2021/4/9 14:35
  **/
 public class TestOpenAccout extends BasePage {
+
+    @Rule
+    public RetryRule retryRule = new RetryRule(5);
 
     private static OpenAccoutPage openAccoutPage;
 

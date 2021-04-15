@@ -19,12 +19,12 @@ public class TestRule {
     public RetryRule retryRule = new RetryRule(5);
 
     @Test
-    public void addition_isCorrect() throws Exception {
+    public void TestAddition_isCorrect() throws Exception {
         assertEquals(8, 2 + 2);
     }
 
     @Test
-    public void mulitiplication_isCorrect() throws Exception {
+    public void TestMulitiplication_isCorrect() throws Exception {
         assertEquals(4, 2 * 2);
     }
 
