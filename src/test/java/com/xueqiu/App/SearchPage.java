@@ -13,7 +13,7 @@ import java.util.List;
  **/
 public class SearchPage extends BasePage {
 
-    private By inputBox = By.id("com.xueqiu.android:id/search_input_tex");
+    private By inputBox = By.id("com.xueqiu.android:id/search_input_text");
     private By selectBox = By.id("com.xueqiu.android:id/stockCode");
     private By current_price = By.id("com.xueqiu.android:id/stock_current_price");
     private By add = By.id("com.xueqiu.android:id/add_attention");
