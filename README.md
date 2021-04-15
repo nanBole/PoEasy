@@ -8,5 +8,7 @@
 
 allure-results 报告展示：
 ![allure-results](https://user-images.githubusercontent.com/29562824/114662894-0866aa80-9d2c-11eb-9e59-d505b756e9c5.png)
-surefire-reports  报告展示：
-![surefire-reports](https://user-images.githubusercontent.com/29562824/114705953-ee908c00-9d5a-11eb-872a-73c57f7b21ad.png)
+
+# 截图展示
+![image](https://user-images.githubusercontent.com/29562824/114898321-90d86e80-9e44-11eb-8786-beebf80a9d42.png)
+
