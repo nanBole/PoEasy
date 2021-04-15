@@ -9,6 +9,7 @@
 allure-results 报告展示：
 ![allure-results](https://user-images.githubusercontent.com/29562824/114662894-0866aa80-9d2c-11eb-9e59-d505b756e9c5.png)
 
-# 截图展示
-![image](https://user-images.githubusercontent.com/29562824/114898321-90d86e80-9e44-11eb-8786-beebf80a9d42.png)
+# 用例失败重跑展示
+![image](https://user-images.githubusercontent.com/29562824/114899624-b154f880-9e45-11eb-86ba-0a5ada70f7da.png)
+
 
