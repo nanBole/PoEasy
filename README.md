@@ -12,4 +12,6 @@ allure-results 报告展示：
 # 用例失败重跑展示
 ![image](https://user-images.githubusercontent.com/29562824/114899624-b154f880-9e45-11eb-86ba-0a5ada70f7da.png)
 
+# 失败用例页面截图
+![image](https://user-images.githubusercontent.com/29562824/114923412-6051fe00-9e5f-11eb-958d-46429b674d7b.png)
 
