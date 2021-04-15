@@ -1,4 +1,4 @@
-package com.xueqiu.Utils;
+package com.org.WeWork.Utils;
 
 
 import com.org.WeWork.page.BasePage;
@@ -26,12 +26,10 @@ public class TakeScreenShot extends BasePage {
 
     public static void takePhotoWithWeb() {
         Date date = new Date();
-
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");//设置日期格式
-        System.out.println();
-        final String desfilepath = ".\\Screenshots\\" + df.format(date) + ".png" ;
-
-        logger.info("----- case failure -----");
+//        System.out.println(df.format(date));
+        int res = (int) (Math.random() * 10000);
+        final String desfilePath = ".\\Screenshots\\" + df.format(date) + "-" + res + ".png" ;
         // make screenshot and get is as base64
         final WebDriver augmentedDriver = new Augmenter().augment(driver);
         ((TakesScreenshot) augmentedDriver).getScreenshotAs(OutputType.BASE64);
@@ -39,7 +37,9 @@ public class TakeScreenShot extends BasePage {
         final File srcfile = ((TakesScreenshot) augmentedDriver)
                 .getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(srcfile, FileUtils.getFile(desfilepath), true);
+            FileUtils.copyFile(srcfile, FileUtils.getFile(desfilePath), true);
+            logger.info("----- case failure -----");
+            logger.info("----- 图片编号"+ res +" -----");
         } catch (final Exception e) {
             System.out.println(e.toString() + "\n");
         }

@@ -1,7 +1,7 @@
 package com.org.WeWork.testCase;
 
+import com.org.WeWork.Utils.RetryRule;
 import com.org.WeWork.page.App;
-import com.xueqiu.Utils.RetryRule;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Rule;
