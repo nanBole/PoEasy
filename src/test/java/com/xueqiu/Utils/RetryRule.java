@@ -63,7 +63,7 @@ public class RetryRule implements TestRule {
                         caughtThrowable = t;
                         logger.info( className + "." +  methodName + " case failed, " + (i + 1) + ", " + t.getMessage());
                         //用例失败截图
-                        TakeScreenShot.takePhotoWithWeb();
+                        TakeScreenShot.takePhotoWithApp();
                         logger.info("----- 已截取失败用例图片 -----");
                     }
                 }
