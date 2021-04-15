@@ -19,7 +19,6 @@ public class App extends BasePage {
     public static void start() throws MalformedURLException {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("platformName", "android");
-//        desiredCapabilities.setCapability("deviceName", "PRA-AL00X_DUP7N17323011090");
         desiredCapabilities.setCapability("deviceName", "DUP7N17323011090");
         desiredCapabilities.setCapability("appActivity", ".view.WelcomeActivityAlias");
         desiredCapabilities.setCapability("appPackage", "com.xueqiu.android");
@@ -29,6 +28,8 @@ public class App extends BasePage {
         //配置chomerdriver路径,配置多个版本的chromerdriver,当存在webview时,可以自己寻找匹配的驱动
         desiredCapabilities.setCapability("chromedriverExecutableDir","D:/selenium");
         desiredCapabilities.setCapability("autoGrantPermissions",true);
+        //noSign表示不重签名，设置为true表示不重签名app
+        desiredCapabilities.setCapability("noSign",true);
         URL remoteUrl = new URL("http://localhost:4723/wd/hub");
 
         driver = new AndroidDriver(remoteUrl, desiredCapabilities);

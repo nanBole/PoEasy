@@ -11,8 +11,6 @@ import org.junit.Test;
 
 import java.net.MalformedURLException;
 
-import static org.hamcrest.Matchers.closeTo;
-import static org.junit.Assert.assertThat;
 
 /**
  * @author 我的袜子有个洞

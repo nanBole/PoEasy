@@ -1,8 +1,10 @@
 package com.org.WeWork.testCase;
 
 import com.org.WeWork.page.App;
+import com.xueqiu.Utils.RetryRule;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.Rule;
 import org.junit.Test;
 import static org.hamcrest.Matchers.*;
 import java.util.List;
@@ -17,6 +19,10 @@ import static org.junit.Assert.assertThat;
  **/
 public class BroadCastPageTest {
     public static App app;
+
+    @Rule
+    public RetryRule retryRule = new RetryRule(2);
+
     @BeforeClass
     public static void beforeAll()  {
         app = new App();
