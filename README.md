@@ -15,3 +15,5 @@ allure-results 报告展示：
 # 失败用例页面截图
 ![image](https://user-images.githubusercontent.com/29562824/114923412-6051fe00-9e5f-11eb-958d-46429b674d7b.png)
 
+# App自动化脚本失败用例截图
+![image](https://user-images.githubusercontent.com/29562824/115021179-385dab80-9eee-11eb-8534-c420b8351911.png)
