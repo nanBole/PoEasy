@@ -4,12 +4,8 @@ import com.xueqiu.App.App;
 import com.xueqiu.App.SearchPage;
 import com.xueqiu.Utils.RetryRule;
 import org.junit.*;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 
 import java.net.MalformedURLException;
-import java.util.ArrayList;
-import java.util.List;
 
 import static org.hamcrest.Matchers.closeTo;
 import static org.junit.Assert.assertThat;

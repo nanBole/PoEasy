@@ -17,6 +17,7 @@ import static org.junit.Assert.assertThat;
  * @path: JunitTest com.org.WeWork.testCase
  * @date: 2021/3/17 15:12
  **/
+
 public class BroadCastPageTest {
     public static App app;
 

@@ -1,7 +1,7 @@
 package com.xueqiu.Utils;
 
 
-import com.org.WeWork.page.BasePage;
+import com.xueqiu.App.BasePage;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
