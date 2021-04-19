@@ -1,5 +1,7 @@
 package com.xueqiu.Utils;
 
+import io.qameta.allure.Attachment;
+import io.qameta.allure.Step;
 import org.apache.log4j.Logger;
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;
@@ -11,6 +13,7 @@ import org.junit.runners.model.Statement;
  * @path: PoEasy com.xueqiu.Utils
  * @date: 2021/4/15 21:42
  **/
+
 public class RetryRule implements TestRule {
 
     private static Logger logger = Logger.getLogger(RetryRule.class);

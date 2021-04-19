@@ -1,9 +1,14 @@
 package com.org.WeWork.Utils;
 
+import io.qameta.allure.Allure;
 import org.apache.log4j.Logger;
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
+
+import java.io.FileInputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * @author 我的袜子有个洞
@@ -15,7 +20,7 @@ public class RetryRule implements TestRule {
 
     private static Logger logger = Logger.getLogger(RetryRule.class);
 
-    private int retryCount;
+    public int retryCount;
 
     public int getRetryCount() {
         return retryCount;
@@ -43,10 +48,15 @@ public class RetryRule implements TestRule {
         return statement(base, description);
     }
 
-    private Statement statement(Statement base, final Description description) {
+    public Statement statement(Statement base, final Description description) {
         return new Statement() {
             @Override
             public void evaluate() throws Throwable {
+
+                Date date = new Date();
+                SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");//设置日期格式
+                int res = (int) (Math.random() * 10000);
+                final String desfilePath = ".\\Screenshots\\" + df.format(date) + "-" + res + ".png";
 
                 String className = description.getClassName();
                 String methodName = description.getMethodName();
@@ -56,19 +66,24 @@ public class RetryRule implements TestRule {
                 for (int i = 0; i < retryCount; i++) {
                     try {
                         //想要在测试方法运行之前做一些事情，就在base.evaluate()之前做
+                        System.out.println("开始测试");
                         base.evaluate();
-                        logger.info( className + "." + methodName + " case success, " + (i + 1));
+                        logger.info(className + "." + methodName + " case success, " + (i + 1));
                         return;
-                    }catch (Throwable t){
+                    } catch (Throwable t) {
                         caughtThrowable = t;
-                        logger.info( className + "." +  methodName + " case failed, " + (i + 1) + ", " + t.getMessage());
+                        logger.info(className + "." + methodName + " case failed, " + (i + 1) + ", " + t.getMessage());
                         //用例失败截图
-                        TakeScreenShot.takePhotoWithWeb();
+                        TakeScreenShot.takePhotoWithWeb(desfilePath, res);
                         logger.info("----- 已截取失败用例图片 -----");
+                        Allure.addAttachment("Faile Picture", "image/png",
+                                new FileInputStream(desfilePath), "png");
                     }
                 }
                 throw caughtThrowable;
             }
         };
     }
+
+
 }

@@ -34,7 +34,7 @@ public class TestAddOptional {
     @Test
     @Step("Search Step")
     @DisplayName("Allure2Demo DisplayName")
-    @Description("Allure2测试用例C")
+    @Description("Allure2测试用例")
     @Link("https://blog.csdn.net/lmarster?type=sub&subType=watch")
     @Link(name = "bugAddress",type = "mylink")
     @Issue("002")

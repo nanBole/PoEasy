@@ -19,7 +19,7 @@ import static org.junit.Assert.assertThat;
 public class TestSearchAndPrice {
 
     @Rule
-    public RetryRule retryRule = new RetryRule(5);
+    public RetryRule retryRule = new RetryRule(2);
 
     public static SearchPage searchPage;
 

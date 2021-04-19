@@ -22,7 +22,7 @@ public class BroadCastPageTest {
     public static App app;
 
     @Rule
-    public RetryRule retryRule = new RetryRule(2);
+    public RetryRule retryRule = new RetryRule(1);
 
     @BeforeClass
     public static void beforeAll()  {
