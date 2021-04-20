@@ -1,7 +1,7 @@
 # PoEasy
 根据po模式设计的web自动化和app自动化测试
 
-#环境依赖
+# 环境依赖
 jdk1.8,Maven,junit4,allure,log4j,jenkins...
 
 # Allure测试报告生成
