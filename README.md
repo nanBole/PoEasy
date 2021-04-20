@@ -23,3 +23,7 @@ allure-results 报告展示：
 
 # Case失败后截图并添加到Allure报告
 ![image](https://user-images.githubusercontent.com/29562824/115246662-ac02f100-a158-11eb-925a-010938023c1f.png)
+
+# 集成Jenkins编译后查看Allure报告
+![image](https://user-images.githubusercontent.com/29562824/115375933-d5775780-a200-11eb-8cc9-76f52d9ac6c8.png)
+
