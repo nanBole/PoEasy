@@ -1,11 +1,12 @@
 package com.xueqiu.Utils;
 
-import io.qameta.allure.Attachment;
-import io.qameta.allure.Step;
 import org.apache.log4j.Logger;
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * @author 我的袜子有个洞
@@ -51,6 +52,11 @@ public class RetryRule implements TestRule {
             @Override
             public void evaluate() throws Throwable {
 
+                Date date = new Date();
+                SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");//设置日期格式
+                int res = (int) (Math.random() * 10000);
+                final String desfilePath = ".\\Screenshots\\" + df.format(date) + "-" + res + ".png" ;
+
                 String className = description.getClassName();
                 String methodName = description.getMethodName();
 
@@ -66,7 +72,7 @@ public class RetryRule implements TestRule {
                         caughtThrowable = t;
                         logger.info( className + "." +  methodName + " case failed, " + (i + 1) + ", " + t.getMessage());
                         //用例失败截图
-                        TakeScreenShot.takePhotoWithApp();
+                        TakeScreenShot.takePhotoWithApp(desfilePath, res);
                         logger.info("----- 已截取失败用例图片 -----");
                     }
                 }

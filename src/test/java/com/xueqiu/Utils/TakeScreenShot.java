@@ -25,12 +25,8 @@ public class TakeScreenShot extends BasePage {
 
     private static Logger logger = Logger.getLogger(TakeScreenShot.class);
 
-    public static void takePhotoWithApp() {
-        Date date = new Date();
-        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");//设置日期格式
-//        System.out.println(df.format(date));
-        int res = (int) (Math.random() * 10000);
-        final String desfilePath = ".\\Screenshots\\" + df.format(date) + "-" + res + ".png" ;
+    public static void takePhotoWithApp(String desfilePath,int res) {
+
         // make screenshot and get is as base64
         final WebDriver augmentedDriver = new Augmenter().augment(driver);
         ((TakesScreenshot) augmentedDriver).getScreenshotAs(OutputType.BASE64);
