@@ -25,7 +25,7 @@ public class App extends BasePage {
     public App loginWithCookie() {
 
         //cookie
-        String sid = "RLfO6jSPTAr5nOy3-2A11gsHmMzEmceiLouRGpRyjGt24TLxyqozEQLFOQ7cAg3U";
+        String sid = "RLfO6jSPTAr5nOy3-2A11kSN1833oAM9byqQBKx2IASRu6vmN7VnklpWqv47U9gX";
         String url = "https://work.weixin.qq.com/";
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.setPageLoadStrategy(PageLoadStrategy.NONE);
@@ -68,7 +68,7 @@ public class App extends BasePage {
      * 管理工具
      */
     public BroadCastPage toGroupMessage() {
-        findElement(By.linkText("管理工")).click();
+        findElement(By.linkText("管理工具")).click();
         findElement(By.partialLinkText("消息群发"), 10).click();
         return new BroadCastPage();
 
