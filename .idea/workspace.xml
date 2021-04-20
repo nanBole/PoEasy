@@ -1,65 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="911d4e48-7e30-4e0a-9ad0-4f3f2068e8a9" name="Default Changelist" comment="">
+    <list default="true" id="911d4e48-7e30-4e0a-9ad0-4f3f2068e8a9" name="Default Changelist" comment="监听失败用例并截图上传到Allure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/02101600-3293-4472-ad0a-65e7e9388afb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/039c2b59-765a-4619-9726-cb1e1732e2a5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/05c2d52b-7edd-4685-9d97-4e1293226628-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/065fd6c3-2a13-4c61-8ebe-7934b914d61f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/086ab3f4-6a3d-4aef-bbd3-5a87836d94f4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/09fcb029-d661-4668-9316-469187d83b69-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0c75a173-bbd8-4053-a39c-48e5c1298134-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0f0ff192-ad89-44e7-9e23-3ce0c12473a1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1ab8d89b-8984-4a93-8a58-4b82bd93e24e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1d75e505-c81d-425a-abf3-3a4ada0d7745-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1f0951f0-eb8c-46a6-9b9b-8efc328599b8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/206f8488-88e7-4c6d-a622-29b712c4e9fa-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/25153308-6e0c-4737-84fb-b7443a8f1947-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/280cf617-d1a1-4b6b-846b-b9d664800e43-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/28156255-8ec8-4d27-a687-c003a02c3a81-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2f77ed56-fb52-479c-b0eb-b0f2f5d9aaf1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2ff996a1-f852-4ebf-95d9-e64ee1c71cc2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/365bfa9d-3a2e-4d62-b3bb-da37995e4ab9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/38785825-1370-4cf6-b82a-419892bea527-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/39d5f1bf-03c8-49c5-a192-1c443af93f5e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/428112c4-8096-43dc-9c3d-576c7092e8cb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4925484f-e5b4-46d0-8ee4-e04f544e84c6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4c128d55-7328-4bc2-9429-b143a3ac9227-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4c194843-f1e9-4f36-b6c8-4d2305fc0969-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/566d0b89-f0ef-4bd1-a821-5ad3f1895eb6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/581a772b-5a24-49cb-bc4a-99e621a16d49-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5b0ff9a0-f64a-4fb0-a630-fe38acb96ab4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5c995b2d-2a08-4c71-b98f-9fec17be9682-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/60273f45-fc52-435c-871f-208e3fd58d10-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/68da8e46-4ae3-4e30-8887-5f30c0359454-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6bf1dceb-9b69-4723-90ab-7afb9e2c67da-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7e608c1c-5290-485b-a998-9d2dda02534c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/90768ce3-8fed-446c-92e5-3701560b87cd-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9b5055d6-b171-4c30-b419-1ceeb746dedf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a57b130f-502b-4ed8-b491-c8c0ca2fdbd7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c16284a7-b743-4447-95cf-9fa2f954bcc2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c3581517-ee67-4846-ba42-0384c234e962-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/cb2744e8-f81f-4045-89fc-f85f4082ee66-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ce372417-2261-47e5-8294-a1cc77ed75ab-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d4761fbd-dbdb-45dd-b753-5bb979d5d22b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d4e6d68d-000b-4056-9126-45573e6e6e72-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e3e60bfb-0e06-4b4e-911a-d0dce1b8dee6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e4c5855b-2771-4941-bca6-3c4012f8bb7f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e99ba630-f52e-4337-be7d-52e81940d8aa-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ecba7097-3a38-4d86-bda1-1961785bf50f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f2d73d22-3596-4bd4-b044-3c700d848b1f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fa2a6841-a386-4848-b486-98c91f3c8c37-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/RetryRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/RetryRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/TakeScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/TakeScreenShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/rule2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/TODO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/org/WeWork/page/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/org/WeWork/page/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/org/WeWork/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/org/WeWork/page/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/BroadCastPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/BroadCastPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/ContactPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/ContactPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/App/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/App/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/RetryRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/RetryRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestAddOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestAddOptional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAndPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAndPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/App/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/App/BasePage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -80,41 +30,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/BroadCastPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+            <state relative-caret-position="189">
+              <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/App/SearchPage.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="148">
+              <caret line="104" column="21" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/RetryRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="288">
+              <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#925#926#0" expanded="true" />
@@ -125,12 +64,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/TakeScreenShot.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/ContactPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="181">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1335#1336#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2300#2301#0" expanded="true" />
+                <element signature="e#2322#2323#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,11 +93,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+            <state relative-caret-position="42">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/App/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="67" column="35" lean-forward="true" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -151,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/ContactPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="319">
+              <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,26 +124,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/BroadCastPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestOpenAccout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="214">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/ContactPageTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestAddOptional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="267">
+              <caret line="36" column="31" selection-start-line="34" selection-start-column="4" selection-end-line="36" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,7 +171,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/Rule.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/rule2.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestOpenAccout.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/TakesScreenShot.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/App/App.java" />
@@ -228,11 +185,15 @@
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAndPrice.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/App/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/RetryRule.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/BroadCastPageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/ContactPageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/org/WeWork/page/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/TakeScreenShot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/TODO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/rule2.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/RetryRule.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/org/WeWork/page/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/ContactPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/BroadCastPageTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/App/BasePage.java" />
       </list>
     </option>
   </component>
@@ -329,8 +290,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="WeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="xueqiu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PoEasy" type="b2602c69:ProjectViewProjectNode" />
@@ -339,9 +299,8 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="WeWork" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="xueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PoEasy" type="b2602c69:ProjectViewProjectNode" />
@@ -350,20 +309,8 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="WeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="xueqiu" type="462c0819:PsiDirectoryNode" />
               <item name="testCase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PoEasy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PoEasy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="WeWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -532,7 +479,7 @@
       <workItem from="1618490668770" duration="18004000" />
       <workItem from="1618573163889" duration="4267000" />
       <workItem from="1618817729911" duration="3342000" />
-      <workItem from="1618827956161" duration="9525000" />
+      <workItem from="1618827956161" duration="14564000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1618219949057</created>
@@ -646,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618577363809</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="监听失败用例并截图上传到Allure">
+      <created>1618839504405</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1618839504405</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -682,7 +636,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53684000" />
+    <option name="totallyTimeSpent" value="58723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,7 +649,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5026643" visible="true" weight="0.22635408" />
       <window_info id="Image Layers" order="1" />
@@ -714,7 +667,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.5149555" weight="0.07282416" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.4987874" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.56911886" visible="true" weight="0.21136767" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.56911886" visible="true" weight="0.36412078" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.48504445" side_tool="true" weight="0.56838363" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -817,23 +770,10 @@
     <MESSAGE value="web端case失败截图" />
     <MESSAGE value="App端case失败截图实现TODO" />
     <MESSAGE value="TODO:监听失败用例并截图上传到Allure" />
-    <option name="LAST_COMMIT_MESSAGE" value="TODO:监听失败用例并截图上传到Allure" />
+    <MESSAGE value="监听失败用例并截图上传到Allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="监听失败用例并截图上传到Allure" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/App/OpenAccoutPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/matchers/JUnitMatchers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/logging/LogManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -888,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/annotation/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Before.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -915,9 +848,6 @@
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/rule2.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Screenshots/screen.png" />
     <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar!/org/apache/commons/io/FileUtils.class">
@@ -963,31 +893,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="174" column="35" lean-forward="true" selection-start-line="174" selection-start-column="35" selection-end-line="174" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/Listener/AllureReporterListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1044,63 +953,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/App/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-467">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestOpenAccout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestAddOptional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAnymore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/RetryRule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-401">
           <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Rule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAndPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="21" column="50" selection-start-line="20" selection-start-column="3" selection-end-line="21" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1121,20 +977,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/BroadCastPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/OutputType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="216">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/Listener/AllureReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.13.9/allure-java-commons-2.13.9.jar!/io/qameta/allure/Allure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="222" column="32" lean-forward="true" selection-start-line="222" selection-start-column="32" selection-end-line="222" selection-end-column="32" />
+          <folding>
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#6292#6293#0" expanded="true" />
+            <element signature="e#6332#6333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/TakeScreenShot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/BasePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/BroadCastPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="316">
+          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/annotation/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="86" column="1" lean-forward="true" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/rule2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/TODO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAnymore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAndPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="21" column="50" selection-start-line="20" selection-start-column="3" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestOpenAccout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestAddOptional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="36" column="31" selection-start-line="34" selection-start-column="4" selection-end-line="36" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1143,57 +1099,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/ContactPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/OutputType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/ContactPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/BroadCastPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/TakeScreenShot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="319">
+          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1202,13 +1109,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/Utils/RetryRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="288">
+          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#925#926#0" expanded="true" />
             <element signature="e#976#977#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Rule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/ContactPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/testCase/BroadCastPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="104" column="21" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2300#2301#0" expanded="true" />
+            <element signature="e#2322#2323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/org/WeWork/page/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/App/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="67" column="35" lean-forward="true" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
         </state>
       </provider>
     </entry>

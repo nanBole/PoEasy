@@ -68,7 +68,7 @@ public class App extends BasePage {
      * 管理工具
      */
     public BroadCastPage toGroupMessage() {
-        findElement(By.linkText("管理工具")).click();
+        findElement(By.linkText("管理工")).click();
         findElement(By.partialLinkText("消息群发"), 10).click();
         return new BroadCastPage();
 

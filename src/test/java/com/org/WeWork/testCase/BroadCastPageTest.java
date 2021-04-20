@@ -2,6 +2,9 @@ package com.org.WeWork.testCase;
 
 import com.org.WeWork.Utils.RetryRule;
 import com.org.WeWork.page.App;
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Rule;
@@ -19,10 +22,11 @@ import static org.junit.Assert.assertThat;
  **/
 
 public class BroadCastPageTest {
-    public static App app;
 
     @Rule
     public RetryRule retryRule = new RetryRule(1);
+
+    public static App app;
 
     @BeforeClass
     public static void beforeAll()  {
@@ -31,6 +35,8 @@ public class BroadCastPageTest {
     }
 
     @Test
+    @Step("messageSend Step")
+    @Description("发送消息")
     public void toSendMessage(){
         String title = "快递";
         List<String> sendMsg = app.toGroupMessage()
@@ -45,8 +51,8 @@ public class BroadCastPageTest {
 //    }
 
 
-        @AfterClass
+    @AfterClass
     public static void quit(){
-//        app.tearDown();
+        app.tearDown();
     }
 }

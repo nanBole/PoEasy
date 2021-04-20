@@ -66,7 +66,7 @@ public class RetryRule implements TestRule {
                 for (int i = 0; i < retryCount; i++) {
                     try {
                         //想要在测试方法运行之前做一些事情，就在base.evaluate()之前做
-                        System.out.println("开始测试");
+//                        System.out.println("开始测试");
                         base.evaluate();
                         logger.info(className + "." + methodName + " case success, " + (i + 1));
                         return;

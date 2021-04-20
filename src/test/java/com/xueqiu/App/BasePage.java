@@ -58,6 +58,7 @@ public class BasePage {
         List<By> alertBox = new ArrayList<>();
         //添加定位参数
         alertBox.add(By.id("com.xueqiu.android:id/image_cancel"));
+        alertBox.add(By.id("com.xueqiu.android:id/iv_close_tip"));
 //        alertBox.add(By.xpath("yyy"));
 
         alertBox.forEach(alert -> {
