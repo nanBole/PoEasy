@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -25,16 +26,25 @@ public class App extends BasePage {
         desiredCapabilities.setCapability("appPackage", "com.xueqiu.android");
         desiredCapabilities.setCapability("ensureWebviewsHavePages", true);
         //防止重安装app
-        desiredCapabilities.setCapability("noReset", true);
+        desiredCapabilities.setCapability("noReset", false);
+        desiredCapabilities.setCapability("autoGrantPermissions", true);
         //配置chomerdriver路径,配置多个版本的chromerdriver,当存在webview时,可以自己寻找匹配的驱动
         desiredCapabilities.setCapability("chromedriverExecutableDir", "D:/selenium");
-        desiredCapabilities.setCapability("autoGrantPermissions", true);
         //noSign表示不重签名，设置为true表示不重签名app
         desiredCapabilities.setCapability("noSign", true);
         URL remoteUrl = new URL("http://localhost:4723/wd/hub");
 
         driver = new AndroidDriver(remoteUrl, desiredCapabilities);
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+        //判断页面是否加载完成
+        new WebDriverWait(driver,30).until(x ->{
+            System.out.println(System.currentTimeMillis());
+            String xml = driver.getPageSource();
+            Boolean  exist = xml.contains("home_search") || xml.contains("image_cancel");
+            System.out.println(exist);
+            return exist;
+        });
     }
 
     public static SearchPage toSearch() {
@@ -51,7 +61,7 @@ public class App extends BasePage {
      * 懒加载模式测试
      * @return
      */
-    public static HomeAppPage toHuShen() {
+    public static HomeAppPage toHomeAppPage() {
         findElementsAndClick(By.id("com.xueqiu.android:id/filter_name"), 3);
         return new HomeAppPage();
     }
