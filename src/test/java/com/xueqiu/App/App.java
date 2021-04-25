@@ -26,7 +26,7 @@ public class App extends BasePage {
         desiredCapabilities.setCapability("appPackage", "com.xueqiu.android");
         desiredCapabilities.setCapability("ensureWebviewsHavePages", true);
         //防止重安装app
-        desiredCapabilities.setCapability("noReset", false);
+        desiredCapabilities.setCapability("noReset", true);
         desiredCapabilities.setCapability("autoGrantPermissions", true);
         //配置chomerdriver路径,配置多个版本的chromerdriver,当存在webview时,可以自己寻找匹配的驱动
         desiredCapabilities.setCapability("chromedriverExecutableDir", "D:/selenium");
@@ -37,7 +37,8 @@ public class App extends BasePage {
         driver = new AndroidDriver(remoteUrl, desiredCapabilities);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-        //判断页面是否加载完成
+//        //判断页面是否加载完成
+
         new WebDriverWait(driver,30).until(x ->{
             System.out.println(System.currentTimeMillis());
             String xml = driver.getPageSource();
@@ -55,6 +56,15 @@ public class App extends BasePage {
     public static OpenAccoutPage toOpenAccout() {
         findElementsAndClick(By.id("tab_name"), 4);
         return new OpenAccoutPage();
+    }
+
+    /**
+     * 自选
+     * @return
+     */
+    public static StockPage toStocks(){
+        findElementAndClick(By.xpath("//*[contains(@resource-id,'tab_name') and @text='自选']"));
+        return new StockPage();
     }
 
     /**

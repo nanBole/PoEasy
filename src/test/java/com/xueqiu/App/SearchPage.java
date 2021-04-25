@@ -28,6 +28,7 @@ public class SearchPage extends BasePage {
     public double getCurrentPrice() {
         List<WebElement> ele = findElements(selectBox);
         ele.get(0).click();
+        System.out.println(findElement(current_price).getText());
         return Double.parseDouble(findElement(current_price).getText());
     }
 

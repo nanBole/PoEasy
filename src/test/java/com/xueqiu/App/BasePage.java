@@ -6,12 +6,16 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.text.DecimalFormat;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author 我的袜子有个洞
@@ -21,7 +25,7 @@ import java.util.List;
  **/
 public class BasePage {
 
-    public static AndroidDriver driver;
+    public static AndroidDriver<WebElement> driver;
 
     /**
      * findElement方法，如果找不到元素，handleAlert()处理
@@ -40,6 +44,12 @@ public class BasePage {
             return driver.findElement(by);
         }
 
+    }
+
+    //等待  ,写死时间
+    public static void waitClickable(By by) {
+        new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOfElementLocated(by));
+        new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(by));
     }
 
     /**
@@ -70,15 +80,34 @@ public class BasePage {
         //添加定位参数
         alertBox.add(By.id("com.xueqiu.android:id/image_cancel"));
         alertBox.add(By.id("com.xueqiu.android:id/iv_close_tip"));
-//        alertBox.add(By.xpath("yyy"));
+        alertBox.add(By.className("android.widget.ImageView"));
 
+        // 没有关闭按钮的弹窗
+        // alertBox.add(By.id("yyy"));
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         alertBox.forEach(alert -> {
-            By adsLocator = alert;
-            List<WebElement> ads = driver.findElements(adsLocator);
+//            By adsLocator = alert;
+            List<WebElement> ads = driver.findElements(alert);
             if (ads.size() >= 1) {
                 ads.get(0).click();
             }
+            //处理没有关闭按钮的弹窗
+            if (alert.equals(By.id("yyy"))) {
+                System.out.println("yyy found");
+                //点击其他地方取消
+                Dimension size = driver.manage().window().getSize();
+                try {
+                    new TouchAction<>(driver).
+                            tap(PointOption.point(size.width / 2, size.height / 2)).perform();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                } finally {
+                    System.out.println("yyy clicked");
+                }
+            }
+
         });
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
 
     /**
@@ -88,6 +117,7 @@ public class BasePage {
      * @return
      */
     public static List<WebElement> findElements(By by) {
+        System.out.println(by);
         return driver.findElements(by);
     }
 
@@ -97,8 +127,18 @@ public class BasePage {
     public static void findElementsAndClick(By by, int index) {
         List<WebElement> ele = driver.findElements(by);
         ele.get(index).click();
+        waitClickable(by);
     }
 
+    /**
+     * findElementsAllClick
+     */
+    public static void findElementsAllClick(By by) {
+        List<WebElement> ele = driver.findElements(by);
+        for (int i = 0; i < 4; i++) {
+            ele.get(i).click();
+        }
+    }
 
     /**
      * 测试手机页面是原生还是Webview
@@ -116,7 +156,7 @@ public class BasePage {
     }
 
     /**
-     * 实现点击
+     * 坐标实现点击
      */
     public void clickElementOverScreen(AndroidDriver driver, int[][] arr) {
         TouchAction ta = new TouchAction(driver);
