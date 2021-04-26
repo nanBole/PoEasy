@@ -92,6 +92,7 @@ public class BasePage {
                 ads.get(0).click();
             }
             //处理没有关闭按钮的弹窗
+            //TODO:
             if (alert.equals(By.id("yyy"))) {
                 System.out.println("yyy found");
                 //点击其他地方取消
@@ -104,7 +105,7 @@ public class BasePage {
                 } finally {
                     System.out.println("yyy clicked");
                 }
-            }
+            }//TODO:
 
         });
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);

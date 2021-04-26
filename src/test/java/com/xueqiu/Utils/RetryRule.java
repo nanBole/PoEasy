@@ -1,10 +1,12 @@
 package com.xueqiu.Utils;
 
+import io.qameta.allure.Allure;
 import org.apache.log4j.Logger;
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
 
+import java.io.FileInputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -74,6 +76,8 @@ public class RetryRule implements TestRule {
                         //用例失败截图
                         TakeScreenShot.takePhotoWithApp(desfilePath, res);
                         logger.info("----- 已截取失败用例图片 -----");
+                        Allure.addAttachment("Faile Picture", "image/png",
+                                new FileInputStream(desfilePath), "png");
                     }
                 }
                 throw caughtThrowable;

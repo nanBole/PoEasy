@@ -31,9 +31,10 @@ public class TakeScreenShot extends BasePage {
         final WebDriver augmentedDriver = new Augmenter().augment(driver);
         ((TakesScreenshot) augmentedDriver).getScreenshotAs(OutputType.BASE64);
         // make screenshot and save it to the local filesystem
+        //截图
         final File srcfile = ((TakesScreenshot) augmentedDriver)
                 .getScreenshotAs(OutputType.FILE);
-        try {
+        try {//拷贝到指定目录文件
             FileUtils.copyFile(srcfile, FileUtils.getFile(desfilePath), true);
             logger.info("----- case failure -----");
             logger.info("----- 图片编号"+ res +" -----");
