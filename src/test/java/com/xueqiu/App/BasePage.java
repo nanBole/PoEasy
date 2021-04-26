@@ -92,7 +92,7 @@ public class BasePage {
                 ads.get(0).click();
             }
             //处理没有关闭按钮的弹窗
-            //TODO:
+            //TODO:暂时未遇到没有关闭按钮的弹窗，遇到后具体处理
             if (alert.equals(By.id("yyy"))) {
                 System.out.println("yyy found");
                 //点击其他地方取消

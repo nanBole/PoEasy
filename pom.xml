@@ -160,7 +160,7 @@
             </plugin>
 
 
-            <!--新增2021-04-13 -->
+            <!--新增2021-04-13 allure插件 -->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

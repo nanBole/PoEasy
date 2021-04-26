@@ -31,7 +31,7 @@ public class TestStock {
         App.start();
         stockPage = App.toStocks();
     }
-    //每个方法都会执行的Junit5
+    //每个方法都会执行的-Junit5
     @BeforeEach
     public void beforeEach(){
         System.out.println("--- test begining ---");
