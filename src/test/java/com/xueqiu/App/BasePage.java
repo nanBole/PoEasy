@@ -155,23 +155,7 @@ public class BasePage {
         System.out.println(driver.getContext());
     }
 
-    /**
-     * 滑动屏幕
-     */
-//    public static void executeSlide() {
-////        System.out.println("滑动");
-//        TouchAction ta = new TouchAction(driver);
-//        int width = driver.manage().window().getSize().width;//当前屏幕的宽度
-//        System.out.println(width);
-//        int height = driver.manage().window().getSize().height; //当前屏幕的高度
-//        System.out.println(height);
-//        //new一个TouchAction对象，调用其按压press()方法，输入坐标点,moveTo移动到下一个坐标点，之后调用release()和perform()方法执行
-//        PointOption P_B = PointOption.point(width / 2, height  / 3);
-//        PointOption P_N = PointOption.point(width / 2, height * 3 / 4);
-//        WaitOptions waitOption = WaitOptions.waitOptions(Duration.ofSeconds(1));//设置动作持续时间：按压一秒
-////        System.out.println("执行");
-//        ta.press(P_B).waitAction(waitOption).moveTo(P_N).release().perform();//按压一秒——移动——松开释放
-//    }
+
 
 
 }
