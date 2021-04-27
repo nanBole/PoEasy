@@ -25,6 +25,7 @@ public class StockPage extends BasePage {
     private By hot_Stocks = By.id("com.xueqiu.android:id/tv_check");
     private By add_Focus = By.id("com.xueqiu.android:id/iv_focus");
     private By back = By.id("android:id/up");
+    private By create_Cube = By.id("com.xueqiu.android:id/action_create_cube");
     /**
      * 删除所有自选股
      */
@@ -52,7 +53,7 @@ public class StockPage extends BasePage {
 
 
     /**
-     * 添加股票自选
+     * 添加热门股票自选
      */
 
     public StockPage addDefaultSelectedStocks() {
@@ -60,6 +61,14 @@ public class StockPage extends BasePage {
         findElementsAllClick(add_Focus);
         findElementAndClick(back);
         return this;
+    }
+
+    /**
+     * 添加单只股票自选
+     */
+    public SearchPage toSearch(){
+        findElementAndClick(create_Cube);
+        return new SearchPage();
     }
 
 }

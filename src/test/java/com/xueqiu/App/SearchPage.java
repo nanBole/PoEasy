@@ -1,5 +1,6 @@
 package com.xueqiu.App;
 
+import com.xueqiu.Utils.ExcuteSwipe;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -20,11 +21,22 @@ public class SearchPage extends BasePage {
     private By add = By.id("com.xueqiu.android:id/add_attention");
     private By cancel = By.id("com.xueqiu.android:id/action_close");
 
+    /**
+     * 搜索框输入股票名称
+     *
+     * @param keyWord
+     * @return
+     */
     public SearchPage search(String keyWord) {
         findElement(inputBox).sendKeys(keyWord);
         return this;
     }
 
+    /**
+     * 获取股票价格
+     *
+     * @return
+     */
     public double getCurrentPrice() {
         List<WebElement> ele = findElements(selectBox);
         ele.get(0).click();
@@ -32,16 +44,22 @@ public class SearchPage extends BasePage {
         return Double.parseDouble(findElement(current_price).getText());
     }
 
-    public void clickAndAdd(){
-        findElementsAndClick(add,0);
+    /**
+     * 搜索页【+】按钮
+     */
+    public SearchPage clickAndSelectStock() {
+        findElementsAndClick(add, 0);
+        return this;
     }
 
     /**
-     * 搜索框取消按钮
+     * 搜索框取消按钮,该按钮从哪个页面进去，取消后就是返回哪个页面
+     *
      * @return
      */
-    public App cancel(){
+    public App cancel() {
         findElementAndClick(cancel);
+        ExcuteSwipe.executeSlide();
         return new App();
     }
 

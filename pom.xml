@@ -28,6 +28,15 @@
             <scope>test</scope>
         </dependency>
 
+        <!--参数化版本必须与Junit5版本一致 -->
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.6.2</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
         <dependency>
             <groupId>org.hamcrest</groupId>
@@ -103,6 +112,8 @@
             <version>1.7.25</version>
             <scope>test</scope>
         </dependency>
+
+
 
     </dependencies>
 

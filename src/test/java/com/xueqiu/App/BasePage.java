@@ -65,7 +65,6 @@ public class BasePage {
         } catch (Exception e) {
             //TODO 随机出现的元素处理
             handleAlert();
-
             driver.findElement(by).click();
         }
 
@@ -157,54 +156,22 @@ public class BasePage {
     }
 
     /**
-     * 坐标实现点击
-     */
-    public void clickElementOverScreen(AndroidDriver driver, int[][] arr) {
-        TouchAction ta = new TouchAction(driver);
-        int width = driver.manage().window().getSize().width;
-        int height = driver.manage().window().getSize().height;
-        int P_base_X = arr[0][0];   //元素基准位置坐标
-        int P_base_y = arr[0][1];
-        int P_base_Screen_X = arr[1][0];//元素所在页的屏幕基准尺寸
-        int P_base_Screen_Y = arr[1][1];
-        int point_X = this.formatNumber(P_base_X, P_base_Screen_X, width);
-        int point_Y = this.formatNumber(P_base_y, P_base_Screen_Y, height);
-        PointOption point_Concat = PointOption.point(point_X, point_Y);
-        ta.press(point_Concat).release().perform();
-
-    }
-
-    /**
-     * 坐标处理
-     *
-     * @param P_1
-     * @param P_2
-     * @param P_3
-     * @return
-     */
-
-    public int formatNumber(int P_1, int P_2, int P_3) {
-        float dd = (float) P_1 / (float) P_2;
-        DecimalFormat df = new DecimalFormat("0.00000000");//格式化小数，不足的补0
-        String rat = df.format((double) dd);
-        float ff = Float.parseFloat(rat);
-        int formatNum = (int) (ff * P_3);
-        return formatNum;
-    }
-
-    /**
      * 滑动屏幕
      */
-    public void executeSlide(AndroidDriver driver, int[][] arr) {
-        TouchAction ta = new TouchAction(driver);
-        int width = driver.manage().window().getSize().width;//当前屏幕的宽度
-        int height = driver.manage().window().getSize().height; //当前屏幕的高度
-        //new一个TouchAction对象，调用其按压press()方法，输入坐标点,moveTo移动到下一个坐标点，之后调用release()和perform()方法执行
-        PointOption P_B = PointOption.point(width * arr[0][0] / arr[0][1], height * arr[1][0] / arr[1][1]);
-        PointOption P_N = PointOption.point(width * arr[2][0] / arr[2][1], height * arr[3][0] / arr[3][1]);
-        WaitOptions waitOption = WaitOptions.waitOptions(Duration.ofSeconds(1));//设置动作持续时间：按压一秒
-        ta.press(P_B).waitAction(waitOption).moveTo(P_N).release().perform();//按压一秒——移动——松开释放
-    }
+//    public static void executeSlide() {
+////        System.out.println("滑动");
+//        TouchAction ta = new TouchAction(driver);
+//        int width = driver.manage().window().getSize().width;//当前屏幕的宽度
+//        System.out.println(width);
+//        int height = driver.manage().window().getSize().height; //当前屏幕的高度
+//        System.out.println(height);
+//        //new一个TouchAction对象，调用其按压press()方法，输入坐标点,moveTo移动到下一个坐标点，之后调用release()和perform()方法执行
+//        PointOption P_B = PointOption.point(width / 2, height  / 3);
+//        PointOption P_N = PointOption.point(width / 2, height * 3 / 4);
+//        WaitOptions waitOption = WaitOptions.waitOptions(Duration.ofSeconds(1));//设置动作持续时间：按压一秒
+////        System.out.println("执行");
+//        ta.press(P_B).waitAction(waitOption).moveTo(P_N).release().perform();//按压一秒——移动——松开释放
+//    }
 
 
 }

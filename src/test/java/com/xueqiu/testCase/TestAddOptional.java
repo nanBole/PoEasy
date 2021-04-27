@@ -40,7 +40,7 @@ public class TestAddOptional {
     @Issue("002")
     @Severity(SeverityLevel.MINOR)
     public void optional() {
-       searchPage.search("alibaba").clickAndAdd();
+       searchPage.search("alibaba").clickAndSelectStock();
     }
 
 
