@@ -1,18 +1,11 @@
-package com.xueqiu.App;
+package com.xueqiu.page;
 
-import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
-import io.appium.java_client.touch.WaitOptions;
-import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.text.DecimalFormat;
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -20,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author 我的袜子有个洞
  * @description:
- * @path: JunitTest com.yxbj.App
+ * @path: JunitTest com.yxbj.page
  * @date: 2021/4/9 14:02
  **/
 public class BasePage {
@@ -91,20 +84,20 @@ public class BasePage {
                 ads.get(0).click();
             }
             //处理没有关闭按钮的弹窗
-            //TODO:暂时未遇到没有关闭按钮的弹窗，遇到后具体处理
-            if (alert.equals(By.id("yyy"))) {
-                System.out.println("yyy found");
-                //点击其他地方取消
-                Dimension size = driver.manage().window().getSize();
-                try {
-                    new TouchAction<>(driver).
-                            tap(PointOption.point(size.width / 2, size.height / 2)).perform();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                } finally {
-                    System.out.println("yyy clicked");
-                }
-            }//TODO:
+//            //TODO:暂时未遇到没有关闭按钮的弹窗，遇到后具体处理
+//            if (alert.equals(By.id("yyy"))) {
+//                System.out.println("yyy found");
+//                //点击其他地方取消
+//                Dimension size = driver.manage().window().getSize();
+//                try {
+//                    new TouchAction<>(driver).
+//                            tap(PointOption.point(size.width / 2, size.height / 2)).perform();
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                } finally {
+//                    System.out.println("yyy clicked");
+//                }
+//            }//TODO:
 
         });
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);

@@ -1,14 +1,16 @@
 package com.xueqiu.testCase;
 
-import com.xueqiu.App.App;
-import com.xueqiu.App.SearchPage;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import com.xueqiu.page.App;
+import com.xueqiu.page.SearchPage;
 import com.xueqiu.Utils.RetryRule;
 import org.junit.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -42,12 +44,14 @@ public class TestSearchAnymore {
      * @return
      */
     @Parameterized.Parameters
-    public static List<String> data() {
-        List<String> stocks = new ArrayList<>();
-        stocks.add("alibaba");
-        stocks.add("xiaomi");
-        stocks.add("jingdong");
-        return stocks;
+    public static List<String> data() throws IOException {
+        //从文件中读取数据，保持路径相同
+        ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
+        String path = "/"+ TestSearchAnymore.class.getCanonicalName().replace(".",
+                "/") + ".yaml";
+        List datas = mapper.readValue(TestSearchAnymore.class.getResourceAsStream(
+                path),List.class);
+       return datas;
     }
 
     @Parameterized.Parameter
@@ -57,6 +61,8 @@ public class TestSearchAnymore {
     public void search() {
         searchPage.search(stocks);
     }
+
+
 
     @After
     public void tearDown() {

@@ -1,7 +1,6 @@
-package com.xueqiu.App;
+package com.xueqiu.page;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +8,7 @@ import java.util.List;
 /**
  * @author 我的袜子有个洞
  * @description:
- * @path: PoEasy com.xueqiu.App
+ * @path: PoEasy com.xueqiu.page
  * @date: 2021/4/25 20:10
  **/
 public class StockPage extends BasePage {

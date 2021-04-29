@@ -1,4 +1,4 @@
-package com.xueqiu.App;
+package com.xueqiu.page;
 
 import com.xueqiu.Utils.ExcuteSwipe;
 import org.openqa.selenium.By;
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * @author 我的袜子有个洞
  * @description:
- * @path: JunitTest com.yxbj.App
+ * @path: JunitTest com.yxbj.page
  * @date: 2021/4/9 14:14
  **/
 public class SearchPage extends BasePage {

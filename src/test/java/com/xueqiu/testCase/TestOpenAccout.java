@@ -1,8 +1,8 @@
 package com.xueqiu.testCase;
 
 import com.org.WeWork.page.BasePage;
-import com.xueqiu.App.App;
-import com.xueqiu.App.OpenAccoutPage;
+import com.xueqiu.page.App;
+import com.xueqiu.page.OpenAccoutPage;
 import com.xueqiu.Utils.RetryRule;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
@@ -11,7 +11,7 @@ import org.junit.Test;
 
 import java.net.MalformedURLException;
 
-import static com.xueqiu.App.BasePage.webView;
+import static com.xueqiu.page.BasePage.webView;
 
 /**
  * @author 我的袜子有个洞

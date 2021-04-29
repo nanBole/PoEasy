@@ -1,7 +1,7 @@
 package com.xueqiu.testCase;
 
-import com.xueqiu.App.App;
-import com.xueqiu.App.StockPage;
+import com.xueqiu.page.App;
+import com.xueqiu.page.StockPage;
 import com.xueqiu.Utils.RetryRule;
 import org.junit.Rule;
 import org.junit.jupiter.api.*;

@@ -1,6 +1,6 @@
 package com.xueqiu.Utils;
 
-import com.xueqiu.App.BasePage;
+import com.xueqiu.page.BasePage;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;

@@ -1,16 +1,11 @@
-package com.xueqiu.App;
+package com.xueqiu.page;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-
-import java.util.List;
 
 /**
  * @author 我的袜子有个洞
  * @description:
- * @path: PoEasy com.xueqiu.App
+ * @path: PoEasy com.xueqiu.page
  * @date: 2021/4/21 17:47
  **/
 public class HomeAppPage extends BasePage {

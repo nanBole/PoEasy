@@ -1,7 +1,7 @@
 package com.xueqiu.testCase;
 
-import com.xueqiu.App.App;
-import com.xueqiu.App.SearchPage;
+import com.xueqiu.page.App;
+import com.xueqiu.page.SearchPage;
 import com.xueqiu.Utils.RetryRule;
 import io.qameta.allure.*;
 import io.qameta.allure.junit4.DisplayName;

@@ -1,7 +1,7 @@
 package com.xueqiu.Utils;
 
 
-import com.xueqiu.App.BasePage;
+import com.xueqiu.page.BasePage;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -10,8 +10,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.Augmenter;
 
 import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 
 /**

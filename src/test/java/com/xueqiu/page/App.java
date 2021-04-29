@@ -1,9 +1,8 @@
-package com.xueqiu.App;
+package com.xueqiu.page;
 
 import io.appium.java_client.android.AndroidDriver;
 import org.junit.Before;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
