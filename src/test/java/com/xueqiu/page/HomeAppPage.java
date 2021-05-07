@@ -1,5 +1,6 @@
 package com.xueqiu.page;
 
+import com.xueqiu.base.BasePage;
 import org.openqa.selenium.By;
 
 /**

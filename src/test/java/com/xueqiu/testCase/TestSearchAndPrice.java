@@ -33,7 +33,6 @@ public class TestSearchAndPrice {
     public void search() {
         assertThat(searchPage.search("alibaba").getCurrentPrice(),
                 closeTo(241.0, 10.0));
-//        searchPage.search("alibaba").getCurrentPrice();
     }
 
 

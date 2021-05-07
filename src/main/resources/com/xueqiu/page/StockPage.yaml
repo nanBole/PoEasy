@@ -1,0 +1,18 @@
+deleteAllStocks:
+  steps:
+    - id: edit_group
+    - id: tv_edit_stock
+    - id: check_all
+    - id: cancel_follow
+    - id: android:id/button1
+    - id: action_close
+
+addDefaultSelectedStocks:
+  steps:
+    - id: tv_check
+    - id: iv_focus
+    - id: up
+
+toSearch:
+  steps:
+    - id: action_create_cube

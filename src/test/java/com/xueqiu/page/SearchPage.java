@@ -1,6 +1,7 @@
 package com.xueqiu.page;
 
 import com.xueqiu.Utils.ExcuteSwipe;
+import com.xueqiu.base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -15,7 +16,6 @@ import java.util.List;
 public class SearchPage extends BasePage {
 
     private By inputBox = By.id("com.xueqiu.android:id/search_input_text");
-    //
     private By selectBox = By.id("com.xueqiu.android:id/stockCode");
     private By current_price = By.id("com.xueqiu.android:id/stock_current_price");
     private By add = By.id("com.xueqiu.android:id/add_attention");
@@ -28,7 +28,8 @@ public class SearchPage extends BasePage {
      * @return
      */
     public SearchPage search(String keyWord) {
-        findElement(inputBox).sendKeys(keyWord);
+//        findElement(inputBox).sendKeys(keyWord);
+        parseSteps("/com/xueqiu/page/SearchPage.yaml","search");
         return this;
     }
 
@@ -58,8 +59,10 @@ public class SearchPage extends BasePage {
      * @return
      */
     public App cancel() {
-        findElementAndClick(cancel);
+//        findElementAndClick(cancel);
+        parseSteps("/com/xueqiu/page/SearchPage.yaml","cancel");
         ExcuteSwipe.executeSlide();
+
         return new App();
     }
 

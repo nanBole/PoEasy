@@ -40,7 +40,7 @@ public class TestSearchAnymore {
     }
 
     /**
-     * 参数提供
+     * 参数提供，从外部yaml文件中读取
      * @return
      */
     @Parameterized.Parameters

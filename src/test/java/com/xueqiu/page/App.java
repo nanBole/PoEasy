@@ -1,5 +1,6 @@
 package com.xueqiu.page;
 
+import com.xueqiu.base.BasePage;
 import io.appium.java_client.android.AndroidDriver;
 import org.junit.Before;
 import org.openqa.selenium.By;
@@ -48,7 +49,8 @@ public class App extends BasePage {
     }
 
     public static SearchPage toSearch() {
-        findElementAndClick(By.id("com.xueqiu.android:id/home_search"));
+//      findElementAndClick(By.id("com.xueqiu.android:id/home_search"));
+        parseSteps("/com/xueqiu/page/App.yaml","toSearch");
         return new SearchPage();
     }
 
@@ -62,7 +64,8 @@ public class App extends BasePage {
      * @return
      */
     public static StockPage toStocks(){
-        findElementAndClick(By.xpath("//*[contains(@resource-id,'tab_name') and @text='自选']"));
+//        findElementAndClick(By.xpath("//*[contains(@resource-id,'tab_name') and @text='自选']"));
+        parseSteps("/com/xueqiu/page/App.yaml","toStocks");
         return new StockPage();
     }
 

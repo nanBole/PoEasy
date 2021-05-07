@@ -1,0 +1,7 @@
+toSearch:
+  steps:
+    - id: home_search
+
+toStocks:
+  steps:
+    - xpath: "//*[contains(@resource-id,'tab_name') and @text='自选']"

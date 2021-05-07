@@ -12,7 +12,8 @@ import java.util.Date;
 
 /**
  * @author 我的袜子有个洞
- * @description: implement一个TestRule interface，实现一个叫apply()的方法。这个方法需要返回一个Statement对象
+ * @description: implement一个TestRule interface，实现一个叫apply()的方法。
+ * 这个方法需要返回一个Statement对象
  * @path: PoEasy com.xueqiu.Utils
  * @date: 2021/4/15 21:42
  **/

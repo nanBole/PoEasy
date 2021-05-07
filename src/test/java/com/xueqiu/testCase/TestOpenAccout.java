@@ -11,7 +11,7 @@ import org.junit.Test;
 
 import java.net.MalformedURLException;
 
-import static com.xueqiu.page.BasePage.webView;
+import static com.xueqiu.base.BasePage.webView;
 
 /**
  * @author 我的袜子有个洞
