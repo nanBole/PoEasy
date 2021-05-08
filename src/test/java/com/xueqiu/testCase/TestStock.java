@@ -38,7 +38,7 @@ public class TestStock {
 
     @BeforeEach
     public void beforeEach(){
-        System.out.println("--- test begining ---");
+        System.out.println("--- ----- ---");
     }
 
     /**

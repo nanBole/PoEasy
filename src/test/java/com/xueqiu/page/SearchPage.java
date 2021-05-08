@@ -28,8 +28,7 @@ public class SearchPage extends BasePage {
      * @return
      */
     public SearchPage search(String keyWord) {
-//        findElement(inputBox).sendKeys(keyWord);
-        parseSteps("/com/xueqiu/page/SearchPage.yaml","search");
+        findElement(inputBox).sendKeys(keyWord);
         return this;
     }
 
@@ -59,8 +58,7 @@ public class SearchPage extends BasePage {
      * @return
      */
     public App cancel() {
-//        findElementAndClick(cancel);
-        parseSteps("/com/xueqiu/page/SearchPage.yaml","cancel");
+        findElementAndClick(cancel);
         ExcuteSwipe.executeSlide();
 
         return new App();

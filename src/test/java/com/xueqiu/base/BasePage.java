@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -15,7 +14,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -124,9 +122,19 @@ public class BasePage {
      * findElementsAndClick
      */
     public static void findElementsAndClick(By by, int index) {
-        List<WebElement> ele = driver.findElements(by);
+        List<WebElement> ele = findElements(by);
         ele.get(index).click();
         waitClickable(by);
+    }
+
+    /**
+     * findElementsAllClick
+     */
+    public static void findElementsAllClick(By by) {
+        List<WebElement> ele = driver.findElements(by);
+        for (int i = 0; i < 4; i++) {
+            ele.get(i).click();
+        }
     }
 
     /**
@@ -155,8 +163,9 @@ public class BasePage {
      * 我们像序列化一样使用Jackson的ObjectMapper，使用readValue（）处理输入。
      * 另外，请注意我们在所有反序列化示例中都将使用Jackson的TypeReference来描述目标Map的类型。
      * 这是Map的toString（）表示形式：
-     *
+     * <p>
      * Yaml文件解析
+     *
      * @param method
      * @throws IOException
      */
@@ -190,7 +199,7 @@ public class BasePage {
     private static void parseStepsForDriver(TestSteps steps) {
 //        steps.get(method).getSteps().forEach(step -> {
         steps.getSteps().forEach(step -> {
-            //TODO:定位方式待完成
+            //TODO:定位方式待完善
             WebElement element = null;
             List<WebElement> elements = null;
             String id = step.get("id");
@@ -219,15 +228,15 @@ public class BasePage {
             String send = step.get("send");
             //获取属性
             String attr = step.get("get");
-            //获取index,对应ids
-            String index = step.get("index");
+            //获取indexs,对应ids,遍历indexs个元素点击
+            String indexs = step.get("indexs");
 
             if (send != null) {
                 element.sendKeys(send);
             } else if (attr != null) {
                 element.getAttribute(attr);
-            } else if (index != null) {
-            //不通用,只适合该系统特定测试用例
+            } else if (indexs != null) {
+                //不通用,只适合该系统特定测试用例
                 for (int i = 0; i < 4; i++) {
                     elements.get(i).click();
                 }

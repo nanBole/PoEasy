@@ -22,10 +22,7 @@ import java.util.List;
 /**
  * @author 我的袜子有个洞
  * @description: 路径测试，读取的地址路径为编译后的路径
- * file:/D:/IntelliJ%20IDEA%202019.1.3/workspace/PoEasy/target/test-classes/
- * file:/D:/IntelliJ%20IDEA%202019.1.3/workspace/PoEasy/target/test-classes/page/TestStock.yaml
- * @path: PoEasy com.xueqiu.getResources
- * @date: 2021/4/27 20:03
+
  **/
 public class TestResources {
 

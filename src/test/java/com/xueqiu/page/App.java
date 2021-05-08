@@ -49,8 +49,7 @@ public class App extends BasePage {
     }
 
     public static SearchPage toSearch() {
-//      findElementAndClick(By.id("com.xueqiu.android:id/home_search"));
-        parseSteps("/com/xueqiu/page/App.yaml","toSearch");
+      findElementAndClick(By.id("com.xueqiu.android:id/home_search"));
         return new SearchPage();
     }
 
@@ -64,8 +63,7 @@ public class App extends BasePage {
      * @return
      */
     public static StockPage toStocks(){
-//        findElementAndClick(By.xpath("//*[contains(@resource-id,'tab_name') and @text='自选']"));
-        parseSteps("/com/xueqiu/page/App.yaml","toStocks");
+        findElementAndClick(By.xpath("//*[contains(@resource-id,'tab_name') and @text='自选']"));
         return new StockPage();
     }
 
