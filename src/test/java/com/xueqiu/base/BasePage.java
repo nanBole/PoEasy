@@ -35,12 +35,11 @@ public class BasePage {
      * @return
      */
     public static WebElement findElement(By by) {
-        //TODO 递归是最好的处理方式
         try {
             System.out.println(by);
             return driver.findElement(by);
         } catch (Exception e) {
-            //TODO 随机出现的元素处理
+            //随机出现的元素处理
             handleAlert();
             return driver.findElement(by);
         }
@@ -131,16 +130,6 @@ public class BasePage {
     }
 
     /**
-     * findElementsAllClick,不通用,只适合该系统特定测试用例
-     */
-    public static void findElementsAllClick(By by) {
-        List<WebElement> ele = driver.findElements(by);
-        for (int i = 0; i < 4; i++) {
-            ele.get(i).click();
-        }
-    }
-
-    /**
      * 测试手机页面是原生还是Webview
      *
      * @throws InterruptedException
@@ -166,19 +155,12 @@ public class BasePage {
      * 我们像序列化一样使用Jackson的ObjectMapper，使用readValue（）处理输入。
      * 另外，请注意我们在所有反序列化示例中都将使用Jackson的TypeReference来描述目标Map的类型。
      * 这是Map的toString（）表示形式：
-     * search:
-     * steps:
-     * - id: xxxx
-     * - id: dddd
-     * send: content
-     * cancel:
-     * - id: xxxx
      *
      * Yaml文件解析
      * @param method
      * @throws IOException
      */
-    public static void parseSteps(String path ,String method) {
+    public static void parseSteps(String path, String method) {
 
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
 //        参数直接指定路径
@@ -201,14 +183,16 @@ public class BasePage {
 
 
     /**
-     *根据解析出的文件信息，来定义方法跟操作步骤的驱动
+     * 根据解析出的文件信息，来定义方法跟操作步骤的驱动
+     *
      * @param steps
      */
-    private static void parseStepsForDriver(TestSteps steps){
+    private static void parseStepsForDriver(TestSteps steps) {
 //        steps.get(method).getSteps().forEach(step -> {
         steps.getSteps().forEach(step -> {
             //TODO:定位方式待完成
             WebElement element = null;
+            List<WebElement> elements = null;
             String id = step.get("id");
             if (id != null) {
                 element = findElement(By.id(id));
@@ -223,17 +207,31 @@ public class BasePage {
                 //MobileBy extends By...
                 element = findElement(MobileBy.AccessibilityId(aid));
             }
+            //列表
+            String ids = step.get("ids");
+            if (ids != null) {
+                elements = findElements(By.id(ids));
+            }
+
 
             //TODO：具体操作步骤抽象
             //输入
             String send = step.get("send");
             //获取属性
             String attr = step.get("get");
-            if (send!=null){
+            //获取index,对应ids
+            String index = step.get("index");
+
+            if (send != null) {
                 element.sendKeys(send);
-            }else if (attr!=null){
+            } else if (attr != null) {
                 element.getAttribute(attr);
-            }else {
+            } else if (index != null) {
+            //不通用,只适合该系统特定测试用例
+                for (int i = 0; i < 4; i++) {
+                    elements.get(i).click();
+                }
+            } else {
                 element.click();
             }
         });
@@ -241,12 +239,12 @@ public class BasePage {
 
     /**
      * 通过方法名解析yaml文件
+     *
      * @param method
      */
-    public  void parseSteps(String method) {
+    public void parseSteps(String method) {
 
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
-//        参数直接指定路径
         String path = "/" + this.getClass().getCanonicalName().replace(".",
                 "/") + ".yaml";
         TypeReference<HashMap<String, TestSteps>> typeRef

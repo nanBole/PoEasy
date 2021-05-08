@@ -5,47 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="911d4e48-7e30-4e0a-9ad0-4f3f2068e8a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/xueqiu/base/BasePage.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/xueqiu/page/App.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/xueqiu/page/SearchPage.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/xueqiu/page/StockPage.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/YamlReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/base/TestSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xueqiu/testCase/TestSearchAnymore.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xueqiu/testCase/TestSearchAnymore.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/ExcuteSwipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/ExcuteSwipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/RetryRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/RetryRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/TakeScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/TakeScreenShot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/getResources/TestResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/getResources/TestResources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/page/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/page/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/page/HomeAppPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/page/HomeAppPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/page/OpenAccoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/page/OpenAccoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/page/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/page/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/page/StockPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/page/StockPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestOpenAccout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestOpenAccout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAndPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAndPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAnymore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAnymore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PoEasy-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/App/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/App/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/App/HomeAppPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/App/OpenAccoutPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/App/SearchPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/App/StockPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/Utils/ExcuteSwipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xueqiu/Utils/ExcuteSwipe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/Utils/RetryRule$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xueqiu/Utils/RetryRule$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/Utils/RetryRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xueqiu/Utils/RetryRule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/Utils/TakeScreenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xueqiu/Utils/TakeScreenShot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/getResources/TestResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xueqiu/getResources/TestResources.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/testCase/TestAddOptional.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xueqiu/testCase/TestAddOptional.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/testCase/TestOpenAccout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xueqiu/testCase/TestOpenAccout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/testCase/TestSearchAndPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xueqiu/testCase/TestSearchAndPrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/testCase/TestSearchAnymore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xueqiu/testCase/TestSearchAnymore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xueqiu/testCase/TestStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xueqiu/testCase/TestStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xueqiu/page/StockPage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xueqiu/page/StockPage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/YamlReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestStock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,17 +30,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/page/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="59" column="7" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+            <state relative-caret-position="79">
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/page/StockPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="35" />
+            <state relative-caret-position="273">
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,13 +48,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestStock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+            <state relative-caret-position="234">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1051#1052#0" expanded="true" />
                 <element signature="e#1110#1111#0" expanded="true" />
               </folding>
@@ -101,20 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/xueqiu/page/StockPage.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/page/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="67" column="47" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -131,8 +82,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/base/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="194" column="12" selection-start-line="194" selection-start-column="12" selection-end-line="194" selection-end-column="12" />
+            <state relative-caret-position="186">
+              <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/base/TestSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
+            <state relative-caret-position="247">
               <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -213,7 +176,6 @@
         <option value="$PROJECT_DIR$/demo.json" />
         <option value="$PROJECT_DIR$/src/main/resources/App/TestStock.yaml" />
         <option value="$PROJECT_DIR$/src/main/resources/App/TestSerach.yaml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestStock.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/App/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/App/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/page/BasePage.java" />
@@ -227,21 +189,22 @@
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestOpenAccout.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/base/parseYaml.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/YamlReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/RetryRule.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAnymore.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/base/TestSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestSearchAndPrice.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/getResources/TestResources.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/xueqiu/page/App.yaml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/base/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/xueqiu/page/StockPage" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/page/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/page/StockPage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/xueqiu/page/SearchPage.yaml" />
         <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/page/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/xueqiu/base/BasePage.yaml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/YamlReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/page/StockPage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/xueqiu/page/StockPage.yaml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/base/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestStock.java" />
       </list>
     </option>
   </component>
@@ -293,6 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -450,7 +414,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -640,7 +603,8 @@
       <workItem from="1619763723948" duration="2780000" />
       <workItem from="1619768597357" duration="923000" />
       <workItem from="1620271236157" duration="16407000" />
-      <workItem from="1620373749753" duration="7826000" />
+      <workItem from="1620373749753" duration="7931000" />
+      <workItem from="1620436314322" duration="6255000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1618219949057</created>
@@ -838,31 +802,17 @@
       <option name="project" value="LOCAL" />
       <updated>1619688800408</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="从yaml文件中读取数据并解析操作步骤">
+      <created>1620382415446</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1620382415446</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestResources_testCaseStpes - 2021.05.07 at 16h 16m 26s.xml">
-      <configuration name="TestResources.testCaseStpes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestStock_addDefaultStocks - 2021.05.07 at 17h 43m 58s.xml">
-      <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestStock_addDefaultStocks - 2021.05.07 at 17h 46m 10s.xml">
-      <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestStock_addDefaultStocks - 2021.05.07 at 17h 46m 49s.xml">
-      <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestStock_addDefaultStocks - 2021.05.07 at 17h 48m 54s.xml">
-      <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestStock_addDefaultStocks - 2021.05.07 at 17h 50m 29s.xml">
-      <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestStock_addDefaultStocks - 2021.05.07 at 17h 59m 57s.xml">
-      <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestStock_addDefaultStocks - 2021.05.07 at 18h 03m 57s.xml">
       <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
     </history-entry>
@@ -872,9 +822,30 @@
     <history-entry file="TestStock_addDefaultStocks - 2021.05.07 at 18h 11m 02s.xml">
       <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestStock_addDefaultStocks - 2021.05.08 at 10h 18m 00s.xml">
+      <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStock_addDefaultStocks - 2021.05.08 at 10h 19m 06s.xml">
+      <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStock_addDefaultStocks - 2021.05.08 at 10h 20m 34s.xml">
+      <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStock_addDefaultStocks - 2021.05.08 at 10h 21m 14s.xml">
+      <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStock_addDefaultStocks - 2021.05.08 at 11h 13m 38s.xml">
+      <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStock_addDefaultStocks - 2021.05.08 at 11h 17m 02s.xml">
+      <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStock_addDefaultStocks - 2021.05.08 at 11h 17m 46s.xml">
+      <configuration name="TestStock.addDefaultStocks" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148652000" />
+    <option name="totallyTimeSpent" value="155012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -889,7 +860,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5026643" visible="true" weight="0.29102668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5026643" visible="true" weight="0.23605497" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -897,7 +868,7 @@
       <window_info id="Favorites" order="5" sideWeight="0.4973357" side_tool="true" weight="0.34519" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.19715808" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.20959148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29307282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1019,7 +990,8 @@
     <MESSAGE value="JUnit5参数化,用例执行顺序,滑动页面刷新" />
     <MESSAGE value="tag1" />
     <MESSAGE value="yaml文件读取" />
-    <option name="LAST_COMMIT_MESSAGE" value="yaml文件读取" />
+    <MESSAGE value="从yaml文件中读取数据并解析操作步骤" />
+    <option name="LAST_COMMIT_MESSAGE" value="从yaml文件中读取数据并解析操作步骤" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
@@ -1135,16 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -1168,16 +1130,6 @@
             <element signature="e#1441#1442#0" expanded="true" />
             <element signature="e#2360#2361#0" expanded="true" />
             <element signature="e#2424#2425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/YamlReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1286,26 +1238,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xueqiu/page/App.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/base/TestSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xueqiu/page/StockPage" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/page/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
+        <state relative-caret-position="1044">
           <caret line="67" column="47" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1313,10 +1249,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xueqiu/page/StockPage">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/base/TestSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="25" lean-forward="true" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="247">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/Utils/YamlReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/page/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1327,6 +1280,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xueqiu/page/App.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/xueqiu/base/BasePage.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1334,48 +1294,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/page/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="59" column="7" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/base/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="194" column="12" selection-start-line="194" selection-start-column="12" selection-end-line="194" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/xueqiu/page/StockPage.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/page/StockPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="35" />
+        <state relative-caret-position="273">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/base/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xueqiu/testCase/TestStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
           </folding>
         </state>
       </provider>

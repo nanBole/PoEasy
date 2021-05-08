@@ -43,7 +43,7 @@ public class TestStock {
 
     /**
      * 添加热门股票到自选
-     * @description:order 可以设置从100开始，不比连续，防止中间加用例
+     * @description:order 可以设置从100开始，不必连续，防止中间加用例
      * @throws InterruptedException
      */
    @Test

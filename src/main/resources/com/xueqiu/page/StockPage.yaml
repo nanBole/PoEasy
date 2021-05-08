@@ -7,11 +7,13 @@ deleteAllStocks:
     - id: android:id/button1
     - id: action_close
 
+#ids表示有多个元素地址一样
 addDefaultSelectedStocks:
   steps:
     - id: tv_check
-    - id: iv_focus
-    - id: up
+    - ids: iv_focus
+      index: 4
+    - id: android:id/up
 
 toSearch:
   steps:
